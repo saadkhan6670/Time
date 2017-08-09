@@ -1,25 +1,20 @@
-# React MobX React-Router 4 Boilerplate
+mobx-react-boilerplate
+=====================
 
-### :tada: React, React-Router@next, MobX and Webpack 2.
-## [Demo](http://boilerplate.mhaagens.me)
+A minimal application that combines [MobX](https://mobxjs.github.io/mobx) with [React](https://facebook.github.io/react).
+Supports ES6 and JSX compilation through babel.
 
-Just run `npm install` and `npm start`, then go to localhost:3000 to start developing.
-To build, run `npm run build`, and to preview run `npm run preview`, then go
-to localhost:1234 for the minified production bundle.
+* For a more sophisticated project to start with, see the full TodoMVC implementation: [mobx-react-todomvc](https://github.com/mobxjs/mobx-react-todomvc).
 
-#### Async component loading
-Components are now loaded async with react-router-loader and the store is injected via MobX Provider. 
-If you've downloaded this boilerplate before remember to run `npm install` again.
+### Run the example
 
-#### Read this if you've been using an earlier version of this boilerplate
+```
+npm install
+npm start
+open http://localhost:3000
+```
 
-* 05/03/17 - Hot reloadable MobX stores
-* 04/04/17 - Upgraded to React Router 4 @ latest
-* 01/31/17 - Upgraded to React Router 4 Beta
-* 01/28/17 - Routes are now loaded through [Lazy-Route](https://github.com/mhaagens/lazy-route).
 
-### Todo
+### Credits
 
-- [X] Async loading of components
-- [X] Data fetching example
-- [X] Protected Routes
+* [Mendix](http://github.com/mendix) for providing the opportunity to battle test this approach (we're hiring!).
