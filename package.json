@@ -1,28 +1,19 @@
 {
-  "name": "mobx-react-boilerplate",
+  "name": "time",
   "version": "1.0.0",
-  "description": "Boilerplate for MobX + React project with JSX, ES6 compilation and hot code reloading",
+  "description": "mobx-react-boilerplate =====================",
+  "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "lint": "eslint src"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mobxjs/mobx-react-boilerplate.git"
+    "url": "git+https://github.com/saadkhan6670/Time.git"
   },
-  "keywords": [
-    "react",
-    "reactjs",
-    "boilerplate",
-    "mobx",
-    "starter-kit"
-  ],
-  "author": "Michel Weststrate <mweststrate@gmail.com> (http://github.com/mweststrate)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mobxjs/mobx/issues"
-  },
-  "homepage": "http://mobxjs.github.com/mobx",
+  "author": "saad",
+  "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.9.1",
     "babel-eslint": "^6.1.0",
@@ -44,5 +35,9 @@
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "react-router-dom": "^4.1.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/saadkhan6670/Time/issues"
+  },
+  "homepage": "https://github.com/saadkhan6670/Time#readme"
 }
